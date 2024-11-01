@@ -2,6 +2,19 @@
 namespace app\controllers;
 class PagesController {
     public function about() {
-        return require "app/views/about.view.php";
+        $articles = [
+            [
+                'title' => 'About',
+                'description' => 'This is the about page.',
+                'url' => 'about'
+            ],
+            [
+                'title' => 'About2',
+                'description' => 'This is the about page2.',
+                'url' => 'about2'
+            ],
+        ];
+        return view('about');
+        //return require "app/views/about.view.php";
     }
 }
