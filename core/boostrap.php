@@ -1,4 +1,5 @@
 <?php
-function view($file) {
+function view($file, $data) {
+    extract($data);
     return require "app/views/$file.view.php";
 }

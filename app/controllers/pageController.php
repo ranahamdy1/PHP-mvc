@@ -14,7 +14,7 @@ class PagesController {
                 'url' => 'about2'
             ],
         ];
-        return view('about');
+        return view('about',compact('articles'));
         //return require "app/views/about.view.php";
     }
 }
