@@ -1,0 +1,15 @@
+{
+    "name": "rana/mvc",
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Rana Hamdy",
+            "email": "104355652+ranahamdy1@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
