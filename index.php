@@ -10,8 +10,9 @@ require_once "core/boostrap.php";
 
 //$router = new Router();
 //require "app/routes.php";
-Router::load('app/routes.php')
-->direct(Request::uri(),Request::method());
+
+//Router::load('app/routes.php')
+//->direct(Request::uri(),Request::method());
 
 //var_dump($router->routes);
 

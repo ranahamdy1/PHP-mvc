@@ -13,4 +13,5 @@ return array(
     'app\\controllers\\PagesController' => $baseDir . '/app/controllers/pageController.php',
     'core\\Request' => $baseDir . '/core/Request.php',
     'core\\Router' => $baseDir . '/core/Router.php',
+    'core\\database\\Connection' => $baseDir . '/core/database/Connection.php',
 );
