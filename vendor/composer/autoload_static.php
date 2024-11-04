@@ -11,6 +11,7 @@ class ComposerStaticInitc0984d5f7e88c9b5bbad8c360ebf590b
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInitc0984d5f7e88c9b5bbad8c360ebf590b' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'app\\controllers\\ArticleController' => __DIR__ . '/../..' . '/app/controllers/ArticleController.php',
         'app\\controllers\\PagesController' => __DIR__ . '/../..' . '/app/controllers/pageController.php',
         'core\\App' => __DIR__ . '/../..' . '/core/App.php',
         'core\\Request' => __DIR__ . '/../..' . '/core/Request.php',

@@ -48,7 +48,7 @@ App::bind('database', new QueryBuilder(Connection::make(App::get('config')['data
 
 // Correct usage for delete
 //var_dump(App::get('database')->delete('articles', 1));
-var_dump(App::get('database')->delete('articles', 'id = ?', [3]));
+//var_dump(App::get('database')->delete('articles', 'id = ?', [3]));
 
 
 function view($file, $data=[]) {
