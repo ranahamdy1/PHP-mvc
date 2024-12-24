@@ -11,5 +11,7 @@
             "email": "104355652+ranahamdy1@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+      "ext-pdo": "*"
+    }
 }

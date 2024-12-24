@@ -1,7 +1,7 @@
 <?php
 
-use core\Router;
-use core\Request;
+//use core\Router;
+//use core\Request;
 
 require_once "vendor/autoload.php";
 require_once "core/boostrap.php";
